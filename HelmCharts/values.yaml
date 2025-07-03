@@ -1,0 +1,7 @@
+image:
+  repository: example-repo-dev
+  tag: TAG
+  pullPolicy: IfNotPresent
+
+imagePullSecrets::
+  - name: example-repo-dev-secret
