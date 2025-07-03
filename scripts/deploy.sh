@@ -1,4 +1,4 @@
 helm upgrade release-name chartpath \
   --install
-  --values "./values.yaml"
+  --values "./HelmCharts/values.yaml"
   --set input.imageTag="v1.20"
