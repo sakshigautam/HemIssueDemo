@@ -1,1 +1,9 @@
+name: CI Pipeline
+on: push
+jobs:
+ 
+runs-on: ubuntu-latest
 
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
